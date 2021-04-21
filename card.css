@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&family=Philosopher&family=Poppins:wght@300&display=swap');
+
+
+
+
+/*---------------Inisialisation-----------------*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------Navbar---------------------*/
+
+.navbar {
+    height:100px;
+}
+
+.nav-link{
+    color :white;
+    font-family: 'Satisfy', cursive;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.5ex;
+
+}
+
+.nav-link:hover {
+    color: rgb(236, 75, 102);
+}
+
+nav .fas {
+    color: white;
+    font-size: 19px;
+    margin-left: 14px;
+}
+
+nav .fas:hover {
+    color: rgb(236, 75, 102);
+    transform: scale(1.5);
+}
+
+header h1 {
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.5ex;
+    padding-top: 150px;
+}
+
+header .input-group {
+    width: 450px;
+}
+
+
+.background{
+    background-image: url(/image/bg.jpg);
+    min-height: 80vh;
+    margin-top: 100x;
+}
+
+
+
+/*--------------------Card-------------------------*/
+
+
+.card img {
+    width: 250px;
+    height: 200px;
+    box-shadow: 2px 2px 2px 2px gainsboro;
+}
+
+.card img:hover {
+    transform: scale(1.2);
+}
+
+.card1  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.card1 input {
+    width: 40px;
+}
+
+.fa-heart {
+    font-size: 22px;
+    color:red;
+}
+
+
+
+
+/*------------------Footer------------------------*/
+
+footer {
+    margin-top: 150px;
+}
+
+.fab {
+    color: white;
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+.fab:hover {
+    color: rgb(236, 75, 102);
+    transform: scale(1.5);
+}
+
+
+
+.copyright a {
+    color: white;
+    text-decoration: none;
+}
+
+.copyright a:hover{
+    color: rgb(236, 75, 102);
+}
